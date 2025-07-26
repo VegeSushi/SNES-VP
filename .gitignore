@@ -13,6 +13,9 @@
 *.pal
 *.pic
 
+*.sfc
+*.sym
+
 linkfile
 data.asm
 frames.h
