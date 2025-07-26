@@ -20,4 +20,6 @@ A demo project for converting any video format to the .sfc SNES cartridge format
 
 ## Note
 
-Currently the bash scripts work only on Linux, no Windows version is planned, but WSL should work fine.
+- Currently the bash scripts work only on Linux, no Windows version is planned, but WSL should work fine.
+
+- The video frames are scaled to 32x32

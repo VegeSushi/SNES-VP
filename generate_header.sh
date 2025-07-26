@@ -55,11 +55,9 @@ cat >> "$header" <<EOF
 static const int sprite_count = sizeof(sprites) / sizeof(SpriteData);
 EOF
 
-# Calculate FRAME_COUNT = round up sprite_count to nearest multiple of 4
 total=${#entries[@]}
-rounded=$(( (total + 3) / 4 * 4 ))
 
-echo "#define FRAME_COUNT $rounded" >> "$header"
+echo "#define FRAME_COUNT $total" >> "$header"
 echo "" >> "$header"
 echo "#endif // FRAMES_H" >> "$header"
 
