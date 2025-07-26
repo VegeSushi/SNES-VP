@@ -15,7 +15,7 @@ A demo project for converting any video format to the .sfc SNES cartridge format
 ./build.sh video.mp4 frames
 ```
 
-- `frame` - the amount of frames to compile.
+- `frames` - the amount of frames to compile.
 - `video.mp4` - the video file, can be any format supported by FFmpeg.
 
 ## Note
